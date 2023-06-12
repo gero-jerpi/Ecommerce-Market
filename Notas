@@ -5,3 +5,4 @@ Preguntas:
 3- Porque cuando exporto el StoredUser desde el registo al script de login me da este error: Uncaught TypeError: Cannot read properties of null (reading 'addEventListener')
     at register.js?t=1686467073754:11:14
     // Este error es porque no puedo leer las propiedades del addEventListener de registro ya que en el DOM del login no existe este id pero yo solo quiero importa el arreglo de usuarios
+
