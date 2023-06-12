@@ -35,8 +35,12 @@ formRegister.addEventListener("submit", (e) => {
 
 function verifyLocalStorage(){
     const localStorageUsers = JSON.parse(localStorage.getItem("users"))
-    storedUsers = localStorageUsers
-    console.log("Usuarios almacenados localmente", storedUsers);
+    if (localStorageUsers != null) {
+        storedUsers = localStorageUsers
+    } else {
+        storedUsers = []
+    }
+    console.log("Usuarios almacenados localmente", storedUsers)
 }
 verifyLocalStorage()
 
