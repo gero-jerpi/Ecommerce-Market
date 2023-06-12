@@ -40,7 +40,7 @@ function verifyLocalStorage(){
     } else {
         storedUsers = []
     }
-    console.log("Usuarios almacenados localmente", storedUsers);
+    console.log("Usuarios almacenados localmente", storedUsers)
 }
 verifyLocalStorage()
 
