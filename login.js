@@ -1,13 +1,26 @@
 import './style.css'
-import { storedUsers } from './register.js'
+
+let storedUsers = [{
+    user: "admin",
+    password: "123"
+}]
+
+function verifyLocalStorage() {
+    const localStorageUsers = JSON.parse(localStorage.getItem("users"))
+    if (localStorageUsers != null) {
+        storedUsers = localStorageUsers
+        console.log("Usuarios almacenados localmente", storedUsers)
+    }
+}
+
+verifyLocalStorage()
+
 
 // Login
 
 const userLogin = document.getElementById("user-login")
 const passwordLogin = document.getElementById("password-login")
 const formLogin = document.getElementById("form-login")
-
-console.log(storedUsers);
 
 formLogin.addEventListener("submit", (e) => {
     e.preventDefault()
@@ -19,10 +32,11 @@ formLogin.addEventListener("submit", (e) => {
 
     } else if (verifyUser != storedUsers[0] && verifyUser != undefined) {
         alert("usuario logeado")
+        let nameUser = userLogin.value
+        localStorage.setItem("user-name", JSON.stringify(nameUser))
         document.location.href = "index.html"
     } else {
         alert("datos incorrectos")
     }
 })
-
 
