@@ -11,6 +11,8 @@ export let storedUsers = [{
     password: "123"
 }]
 
+localStorage.setItem("users", JSON.stringify(storedUsers))
+
 formRegister.addEventListener("submit", (e) => {
     e.preventDefault()
     const userSearch = storedUsers.find((user) => user.user === userRegister.value)
@@ -33,12 +35,10 @@ formRegister.addEventListener("submit", (e) => {
 
 })
 
-function verifyLocalStorage(){
+function verifyLocalStorage() {
     const localStorageUsers = JSON.parse(localStorage.getItem("users"))
     if (localStorageUsers != null) {
         storedUsers = localStorageUsers
-    } else {
-        storedUsers = []
     }
     console.log("Usuarios almacenados localmente", storedUsers)
 }
