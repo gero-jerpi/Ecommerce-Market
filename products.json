@@ -1,10 +1,322 @@
 [
     {
-        "category": "",
-        "name": "",
-        "brand": "",
-        "price": "",
-        "amount": "",
-        "img": ""
+        "offer": "offer",
+        "category": "almacen",
+        "img": "https://tualmacen.com.ar/_next/image?url=https%3A%2F%2Fimagenes-tualmacen.nyc3.digitaloceanspaces.com%2Fuploads%2Fmod_productos%2F5359_thumbnail_1654529383_ID-5359-1.jpg&w=256&q=75",
+        "price": 600,
+        "amount": "1 Kg",
+        "name": "Azúcar común",
+        "brand": "Ledesma"
+    },
+    {
+        "category": "almacen",
+        "img": "https://tualmacen.com.ar/_next/image?url=https%3A%2F%2Fimagenes-tualmacen.nyc3.digitaloceanspaces.com%2Fuploads%2Fmod_productos%2FID-6763-1.jpg&w=256&q=75",
+        "price": 3380.93,
+        "amount": "300 Gr",
+        "name": "Azúcar impalpable",
+        "brand": "Dos Anclas"
+    },
+    {
+        "category": "almacen",
+        "img": "https://tualmacen.com.ar/_next/image?url=https%3A%2F%2Fimagenes-tualmacen.nyc3.digitaloceanspaces.com%2Fuploads%2Fmod_productos%2FID-10713-1.jpg&w=256&q=75",
+        "price": 380,
+        "amount": "500 Gr",
+        "name": "Fideos",
+        "brand": "Lucchetti"
+    },
+    {
+        "category": "almacen",
+        "img": "https://tualmacen.com.ar/_next/image?url=https%3A%2F%2Fimagenes-tualmacen.nyc3.digitaloceanspaces.com%2Fuploads%2Fmod_productos%2F3960_thumbnail_1666204639_ID-3960-1.jpg&w=128&q=75",
+        "price": 299,
+        "amount": "1Kg",
+        "name": "Harina 0000",
+        "brand": "Pureza"
+    },
+    {
+        "category": "almacen",
+        "img": "https://tualmacen.com.ar/_next/image?url=https%3A%2F%2Fimagenes-tualmacen.nyc3.digitaloceanspaces.com%2Fuploads%2Fmod_productos%2F5262_thumbnail_1660929598_ID-5262-1.jpg&w=256&q=75",
+        "price": 579.76,
+        "amount": "100 Sobres",
+        "name": "Edulcorante",
+        "brand": "Cabrales"
+    },
+    {
+        "category": "almacen",
+        "img": "https://tualmacen.com.ar/_next/image?url=https%3A%2F%2Fimagenes-tualmacen.nyc3.digitaloceanspaces.com%2Fuploads%2Fmod_productos%2F9933_thumbnail_1658762919_ID-9933-1.jpg&w=128&q=75",
+        "price": 340,
+        "amount": "500 Ml",
+        "name": "Jugo de limón",
+        "brand": "Dos Anclas"
+    },
+    {
+        "category": "almacen",
+        "img": "https://tualmacen.com.ar/_next/image?url=https%3A%2F%2Fimagenes-tualmacen.nyc3.digitaloceanspaces.com%2Fuploads%2Fmod_productos%2FID-1-1.jpg&w=128&q=75",
+        "price": 1200,
+        "amount": "1.5 Lts",
+        "name": "Aceite de Girasol",
+        "brand": "Cañuelas"
+    },
+    {
+        "category": "almacen",
+        "img": "https://tualmacen.com.ar/_next/image?url=https%3A%2F%2Fimagenes-tualmacen.nyc3.digitaloceanspaces.com%2Fuploads%2Fmod_productos%2F437_thumbnail_1660915673_ID-437-1.jpg&w=128&q=75",
+        "price": 500,
+        "amount": "500 Gr",
+        "name": "Yerba",
+        "brand": "Amanda"
+    },
+    {
+        "category": "limpieza",
+        "img": "https://tualmacen.com.ar/_next/image?url=https%3A%2F%2Fimagenes-tualmacen.nyc3.digitaloceanspaces.com%2Fuploads%2Fmod_productos%2F4052_thumbnail_1651599132_ID-4052-1.jpg&w=128&q=75",
+        "price": 520,
+        "amount": "250 ML",
+        "name": "Aromatizante de Tela",
+        "brand": "Poett"
+    },
+    {
+        "category": "limpieza",
+        "img": "https://tualmacen.com.ar/_next/image?url=https%3A%2F%2Fimagenes-tualmacen.nyc3.digitaloceanspaces.com%2Fuploads%2Fmod_productos%2F5686_thumbnail_1666193791_ID-5686-1.jpg&w=128&q=75",
+        "price": 230,
+        "amount": "45 x 60 CM 10 Un",
+        "name": "Bolsas para Residuos",
+        "brand": "Make"
+    },
+    {
+        "category": "limpieza",
+        "img": "https://tualmacen.com.ar/_next/image?url=https%3A%2F%2Fimagenes-tualmacen.nyc3.digitaloceanspaces.com%2Fuploads%2Fmod_productos%2FID-1734-1.jpg&w=256&q=75",
+        "price": 720,
+        "amount": "450 Ml",
+        "name": "Autobrillo Blem",
+        "brand": "Blem"
+    },
+    {
+        "category": "limpieza",
+        "img": "https://tualmacen.com.ar/_next/image?url=https%3A%2F%2Fimagenes-tualmacen.nyc3.digitaloceanspaces.com%2Fuploads%2Fmod_productos%2F8955_thumbnail_1651687495_ID-4072-1.jpg&w=128&q=75",
+        "price": 470,
+        "amount": "332 Ml",
+        "name": "Desinfectante en Aerosol",
+        "brand": "Ayudín"
+    },
+    {
+        "category": "limpieza",
+        "img": "https://tualmacen.com.ar/_next/image?url=https%3A%2F%2Fimagenes-tualmacen.nyc3.digitaloceanspaces.com%2Fuploads%2Fmod_productos%2F7561_thumbnail_1658342464_ID-7561-1.jpg&w=128&q=75",
+        "price": 380,
+        "amount": "1 Un",
+        "name": "Encendedor",
+        "brand": "Bic"
+    },
+    {
+        "category": "limpieza",
+        "img": "https://tualmacen.com.ar/_next/image?url=https%3A%2F%2Fimagenes-tualmacen.nyc3.digitaloceanspaces.com%2Fuploads%2Fmod_productos%2FBroches%20de%20Plastico%20Task.jpg&w=128&q=75",
+        "price": 510,
+        "amount": "360 Ml",
+        "name": "Desodorante Ambiental",
+        "brand": "Glade"
+    },
+    {
+        "category": "limpieza",
+        "img": "https://tualmacen.com.ar/_next/image?url=https%3A%2F%2Fimagenes-tualmacen.nyc3.digitaloceanspaces.com%2Fuploads%2Fmod_productos%2F5700_thumbnail_1666193650_ID-5700-1.jpg&w=128&q=75",
+        "price": 1750,
+        "amount": "1 Un",
+        "name": "Balde Plástico",
+        "brand": "Make"
+    },
+    {
+        "category": "limpieza",
+        "img": "https://tualmacen.com.ar/_next/image?url=https%3A%2F%2Fimagenes-tualmacen.nyc3.digitaloceanspaces.com%2Fuploads%2Fmod_productos%2F5853_thumbnail_1652384176_ID-5853-1.jpg&w=128&q=75",
+        "price": 610,
+        "amount": "14 Un",
+        "name": "Bolsas Ziploc",
+        "brand": "Ziploc"
+    },
+    {
+        "category": "congelados",
+        "img": "https://tualmacen.com.ar/_next/image?url=https%3A%2F%2Fimagenes-tualmacen.nyc3.digitaloceanspaces.com%2Fuploads%2Fmod_productos%2F5744_thumbnail_1650376309_Bastones_De_Merluza_Crocante_Grupolar_500_Gr.jpg&w=128&q=75",
+        "price": 710,
+        "amount": "500 Gr",
+        "name": "Bastones de Merluza",
+        "brand": "Grupolar"
+    },
+    {
+        "category": "congelados",
+        "img": "https://tualmacen.com.ar/_next/image?url=https%3A%2F%2Fimagenes-tualmacen.nyc3.digitaloceanspaces.com%2Fuploads%2Fmod_productos%2FID-8968-1.jpg&w=128&q=75",
+        "price": 1550,
+        "amount": "400 Gr",
+        "name": "Bastones de Muzzarella",
+        "brand": "Solimeno"
+    },
+    {
+        "category": "congelados",
+        "img": "https://tualmacen.com.ar/_next/image?url=https%3A%2F%2Fimagenes-tualmacen.nyc3.digitaloceanspaces.com%2Fuploads%2Fmod_productos%2FBocaditos%20Swift%20de%20Pollo.jpg&w=128&q=75",
+        "price": 1000,
+        "amount": "380 Gr",
+        "name": "Bocaditos de Pollo",
+        "brand": "Swift"
+    },
+    {
+        "category": "congelados",
+        "img": "https://tualmacen.com.ar/_next/image?url=https%3A%2F%2Fimagenes-tualmacen.nyc3.digitaloceanspaces.com%2Fuploads%2Fmod_productos%2F5735_thumbnail_1655137914_ID-5735-1.jpg&w=128&q=75",
+        "price": 1100,
+        "amount": "800 Gr",
+        "name": "Brócoli",
+        "brand": "Grupolar"
+    },
+    {
+        "category": "congelados",
+        "img": "https://tualmacen.com.ar/_next/image?url=https%3A%2F%2Fimagenes-tualmacen.nyc3.digitaloceanspaces.com%2Fuploads%2Fmod_productos%2FID-8731-1.jpg&w=128&q=75",
+        "price": 1010,
+        "amount": "330 Gr",
+        "name": "Medallones de Pollo",
+        "brand": "Granja del Sol"
+    },
+    {
+        "category": "congelados",
+        "img": "https://tualmacen.com.ar/_next/image?url=https%3A%2F%2Fimagenes-tualmacen.nyc3.digitaloceanspaces.com%2Fuploads%2Fmod_productos%2F9528_thumbnail_1655816349_id-9528-1.jpg&w=128&q=75",
+        "price": 2570,
+        "amount": "1 Kg",
+        "name": "Pechuga de Pollo",
+        "brand": "Tres Arroyos"
+    },
+    {
+        "category": "congelados",
+        "img": "https://tualmacen.com.ar/_next/image?url=https%3A%2F%2Fimagenes-tualmacen.nyc3.digitaloceanspaces.com%2Fuploads%2Fmod_productos%2F9525_thumbnail_1660067496_ID-9525-1.jpg&w=128&q=75",
+        "price": 673,
+        "amount": "1 Kg",
+        "name": "Pollo Entero",
+        "brand": "Tres Arroyos"
+    },
+    {
+        "category": "congelados",
+        "img": "https://tualmacen.com.ar/_next/image?url=https%3A%2F%2Fimagenes-tualmacen.nyc3.digitaloceanspaces.com%2Fuploads%2Fmod_productos%2FHamburguesa%20Swift%20Cl%C3%A1sica%202%20Un.jpg&w=128&q=75",
+        "price": 560,
+        "amount": "160 Gr",
+        "name": "Hamburguesa Clásica",
+        "brand": "Swift"
+    },
+    {
+        "category": "verduleria",
+        "img": "https://tualmacen.com.ar/_next/image?url=https%3A%2F%2Fimagenes-tualmacen.nyc3.digitaloceanspaces.com%2Fuploads%2Fmod_productos%2F2072_thumbnail_1652359945_ID-2072-1.jpg&w=128&q=75",
+        "price": 500,
+        "amount": "1 Kg",
+        "name": "Banana Ecuador",
+        "brand": ""
+    },
+    {
+        "category": "verduleria",
+        "img": "https://tualmacen.com.ar/_next/image?url=https%3A%2F%2Fimagenes-tualmacen.nyc3.digitaloceanspaces.com%2Fuploads%2Fmod_productos%2FID-3898-1.jpg&w=128&q=75",
+        "price": 840,
+        "amount": "500 Gr",
+        "name": "Kiwi mediano",
+        "brand": ""
+    },
+    {
+        "category": "verduleria",
+        "img": "https://tualmacen.com.ar/_next/image?url=https%3A%2F%2Fimagenes-tualmacen.nyc3.digitaloceanspaces.com%2Fuploads%2Fmod_productos%2F2102_thumbnail_1663082142_ID-7601-1.jpg&w=128&q=75",
+        "price": 130,
+        "amount": "500 Gr",
+        "name": "Limon",
+        "brand": ""
+    },
+    {
+        "category": "verduleria",
+        "img": "https://tualmacen.com.ar/_next/image?url=https%3A%2F%2Fimagenes-tualmacen.nyc3.digitaloceanspaces.com%2Fuploads%2Fmod_productos%2FID-2104-1.jpg&w=128&q=75",
+        "price": 600,
+        "amount": "1 Kg",
+        "name": "Manzana Roja",
+        "brand": ""
+    },
+    {
+        "category": "verduleria",
+        "img": "https://tualmacen.com.ar/_next/image?url=https%3A%2F%2Fimagenes-tualmacen.nyc3.digitaloceanspaces.com%2Fuploads%2Fmod_productos%2FID-2105-1.jpg&w=128&q=75",
+        "price": 900,
+        "amount": "1 Kg",
+        "name": "Manzana Verde",
+        "brand": ""
+    },
+    {
+        "category": "verduleria",
+        "img": "https://tualmacen.com.ar/_next/image?url=https%3A%2F%2Fimagenes-tualmacen.nyc3.digitaloceanspaces.com%2Fuploads%2Fmod_productos%2FID-2077-1.jpg&w=128&q=75",
+        "price": 280,
+        "amount": "1 Kg",
+        "name": "Cebolla",
+        "brand": ""
+    },
+    {
+        "category": "verduleria",
+        "img": "https://tualmacen.com.ar/_next/image?url=https%3A%2F%2Fimagenes-tualmacen.nyc3.digitaloceanspaces.com%2Fuploads%2Fmod_productos%2FID-2108-1.jpg&w=128&q=75",
+        "price": 270,
+        "amount": "500 Gr",
+        "name": "Morrón Rojo",
+        "brand": ""
+    },
+    {
+        "category": "verduleria",
+        "img": "https://tualmacen.com.ar/_next/image?url=https%3A%2F%2Fimagenes-tualmacen.nyc3.digitaloceanspaces.com%2Fuploads%2Fmod_productos%2F2113_thumbnail_1518414175_papa_negra.jpg&w=128&q=75",
+        "price": 300,
+        "amount": "1 Kg",
+        "name": "Papa Negra",
+        "brand": ""
+    },
+    {
+        "category": "kiosko",
+        "img": "https://tualmacen.com.ar/_next/image?url=https%3A%2F%2Fimagenes-tualmacen.nyc3.digitaloceanspaces.com%2Fuploads%2Fmod_productos%2FID-10161-1.jpg&w=128&q=75",
+        "price": 320,
+        "amount": "70 Gr",
+        "name": "Alfajor Cachafaz",
+        "brand": "Chocolate Blanco"
+    },
+    {
+        "category": "kiosko",
+        "img": "https://tualmacen.com.ar/_next/image?url=https%3A%2F%2Fimagenes-tualmacen.nyc3.digitaloceanspaces.com%2Fuploads%2Fmod_productos%2FAlfajor%20Cachafaz%20Negro.jpg&w=128&q=75",
+        "price": 320,
+        "amount": "70 Gr",
+        "name": "Alfajor Cachafaz",
+        "brand": "Chocolate Negro"
+    },
+    {
+        "category": "kiosko",
+        "img": "https://tualmacen.com.ar/_next/image?url=https%3A%2F%2Fimagenes-tualmacen.nyc3.digitaloceanspaces.com%2Fuploads%2Fmod_productos%2FAlfajor%20Guaymall%C3%A9n%20Simple%20Negro.jpg&w=128&q=75",
+        "price": 120,
+        "amount": "70 Gr",
+        "name": "Alfajor Guaymallén",
+        "brand": "Triple blanco"
+    },
+    {
+        "category": "kiosko",
+        "img": "https://tualmacen.com.ar/_next/image?url=https%3A%2F%2Fimagenes-tualmacen.nyc3.digitaloceanspaces.com%2Fuploads%2Fmod_productos%2F8136_thumbnail_1619463033_Barra_de_Cereal_Mix_Chocolate_con_Almendras_23_Gr.jpg&w=128&q=75",
+        "price": 180,
+        "amount": "23 Gr",
+        "name": "Barra de Cereal Mix",
+        "brand": "Chocolate con Almendras"
+    },
+    {
+        "category": "kiosko",
+        "img": "https://tualmacen.com.ar/_next/image?url=https%3A%2F%2Fimagenes-tualmacen.nyc3.digitaloceanspaces.com%2Fuploads%2Fmod_productos%2F5840_thumbnail_1652978224_Chocolate_Cadbury_Frutilla_27_Gr.jpg&w=128&q=75",
+        "price": 245,
+        "amount": "29 Gr",
+        "name": "Chocolate Cadbury",
+        "brand": "Frutilla"
+    },
+    {
+        "category": "kiosko",
+        "img": "https://tualmacen.com.ar/_next/image?url=https%3A%2F%2Fimagenes-tualmacen.nyc3.digitaloceanspaces.com%2Fuploads%2Fmod_productos%2F8917_thumbnail_1657217568_ID-8917-1.jpg&w=128&q=75",
+        "price": 424,
+        "amount": "45 Gr",
+        "name": "Chocolate Milka",
+        "brand": "Leger con leche"
+    },
+    {
+        "category": "kiosko",
+        "img": "https://tualmacen.com.ar/_next/image?url=https%3A%2F%2Fimagenes-tualmacen.nyc3.digitaloceanspaces.com%2Fuploads%2Fmod_productos%2F5837_thumbnail_1657216200_ID-5837-1.jpg&w=128&q=75",
+        "price": 800,
+        "amount": "100 Gr",
+        "name": "Chocolate Milka",
+        "brand": "Leger con Almendras"
+    },  {
+        "category": "kiosko",
+        "img": "https://tualmacen.com.ar/_next/image?url=https%3A%2F%2Fimagenes-tualmacen.nyc3.digitaloceanspaces.com%2Fuploads%2Fmod_productos%2FID-5416-1.jpg&w=128&q=75",
+        "price": 300,
+        "amount": "100 Gr",
+        "name": "Snack Saladix",
+        "brand": "Jamón"
     }
 ]

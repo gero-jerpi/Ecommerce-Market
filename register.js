@@ -6,12 +6,10 @@ const userRegister = document.getElementById("user-register")
 const passwordRegister = document.getElementById("password-register")
 const formRegister = document.getElementById("form-register")
 
-export let storedUsers = [{
+let storedUsers = [{
     user: "admin",
     password: "123"
 }]
-
-localStorage.setItem("users", JSON.stringify(storedUsers))
 
 formRegister.addEventListener("submit", (e) => {
     e.preventDefault()
@@ -28,7 +26,7 @@ formRegister.addEventListener("submit", (e) => {
         console.log(storedUsers);
 
         alert("Usuario creado")
-        // Redirección: document.location.href = "login.html"
+        document.location.href = "login.html"
     } else {
         alert("Usuario ya existente")
     }
