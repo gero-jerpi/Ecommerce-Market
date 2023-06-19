@@ -9,8 +9,51 @@
 
 <body>
 
-    <a href="index.html">INDEX</a>
-    <a href="register.html">REGISTER</a>
+    <!-- Header -->
+    <header>
+        <svg width="60" height="60" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none"
+            stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path d="M6 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+            <path d="M17 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+            <path d="M17 17h-11v-14h-2" />
+            <path d="M6 5l14 1l-1 7h-13" />
+        </svg>
+
+        <svg id="menu" width="60" height="60" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none"
+            stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path d="M4 6l16 0" />
+            <path d="M4 12l16 0" />
+            <path d="M4 18l16 0" />
+        </svg>
+    </header>
+
+    <!-- Nav -->
+    <nav id="nav">
+        <ul>
+            <li><a href="index.html">INICIO</a></li>
+            <li>
+                <div class="li-products" id="show-options">
+                    <p>PRODUCTOS</p>
+                    <svg width="15" height="15" fill="black">
+                        <path d="m1 1.152 5.445 5.445a1 1 0 0 0 1.414 0l5.446-5.445" stroke="#000000" stroke-width="0"
+                            stroke-linecap="round"></path>
+                    </svg>
+                </div>
+                <div class="menu-options" id="menu-options">
+                    <ul>
+                        <li id="almacen">ALMACEN</li>
+                        <li id="limpieza">LIMPIEZA</li>
+                        <li id="congelados">CONGELADOS</li>
+                        <li id="fiambreria">FIAMBRERIA</li>
+                        <li id="kiosko">KIOSKO</li>
+                    </ul>
+                </div>
+            </li>
+            <li><a href="login.html">INICIAR SESION</a></li>
+        </ul>
+    </nav>
 
     <!--Form login-->
 
@@ -21,8 +64,7 @@
         <input type="password" placeholder="Password" required="Required field" id="password-login">
         <input type="submit" value="Login">
     </form>
-
-
+    
     <script type="module" src="./login.js"></script>
 </body>
 
