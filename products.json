@@ -17,6 +17,7 @@
         "brand": "Dos Anclas"
     },
     {
+        "offer": "offer",
         "category": "almacen",
         "img": "https://tualmacen.com.ar/_next/image?url=https%3A%2F%2Fimagenes-tualmacen.nyc3.digitaloceanspaces.com%2Fuploads%2Fmod_productos%2FID-10713-1.jpg&w=256&q=75",
         "price": 380,
@@ -25,6 +26,7 @@
         "brand": "Lucchetti"
     },
     {
+        "offer": "offer",
         "category": "almacen",
         "img": "https://tualmacen.com.ar/_next/image?url=https%3A%2F%2Fimagenes-tualmacen.nyc3.digitaloceanspaces.com%2Fuploads%2Fmod_productos%2F3960_thumbnail_1666204639_ID-3960-1.jpg&w=128&q=75",
         "price": 299,
@@ -73,6 +75,7 @@
         "brand": "Poett"
     },
     {
+        "offer": "offer",
         "category": "limpieza",
         "img": "https://tualmacen.com.ar/_next/image?url=https%3A%2F%2Fimagenes-tualmacen.nyc3.digitaloceanspaces.com%2Fuploads%2Fmod_productos%2F5686_thumbnail_1666193791_ID-5686-1.jpg&w=128&q=75",
         "price": 230,
@@ -81,6 +84,7 @@
         "brand": "Make"
     },
     {
+        "offer": "offer",
         "category": "limpieza",
         "img": "https://tualmacen.com.ar/_next/image?url=https%3A%2F%2Fimagenes-tualmacen.nyc3.digitaloceanspaces.com%2Fuploads%2Fmod_productos%2FID-1734-1.jpg&w=256&q=75",
         "price": 720,
@@ -97,6 +101,7 @@
         "brand": "Ayudín"
     },
     {
+        "offer": "offer",
         "category": "limpieza",
         "img": "https://tualmacen.com.ar/_next/image?url=https%3A%2F%2Fimagenes-tualmacen.nyc3.digitaloceanspaces.com%2Fuploads%2Fmod_productos%2F7561_thumbnail_1658342464_ID-7561-1.jpg&w=128&q=75",
         "price": 380,
@@ -153,6 +158,7 @@
         "brand": "Swift"
     },
     {
+        "offer": "offer",
         "category": "congelados",
         "img": "https://tualmacen.com.ar/_next/image?url=https%3A%2F%2Fimagenes-tualmacen.nyc3.digitaloceanspaces.com%2Fuploads%2Fmod_productos%2F5735_thumbnail_1655137914_ID-5735-1.jpg&w=128&q=75",
         "price": 1100,
@@ -161,6 +167,7 @@
         "brand": "Grupolar"
     },
     {
+        "offer": "offer",
         "category": "congelados",
         "img": "https://tualmacen.com.ar/_next/image?url=https%3A%2F%2Fimagenes-tualmacen.nyc3.digitaloceanspaces.com%2Fuploads%2Fmod_productos%2FID-8731-1.jpg&w=128&q=75",
         "price": 1010,
@@ -185,6 +192,7 @@
         "brand": "Tres Arroyos"
     },
     {
+        "offer": "offer",
         "category": "congelados",
         "img": "https://tualmacen.com.ar/_next/image?url=https%3A%2F%2Fimagenes-tualmacen.nyc3.digitaloceanspaces.com%2Fuploads%2Fmod_productos%2FHamburguesa%20Swift%20Cl%C3%A1sica%202%20Un.jpg&w=128&q=75",
         "price": 560,
@@ -193,68 +201,71 @@
         "brand": "Swift"
     },
     {
-        "category": "verduleria",
-        "img": "https://tualmacen.com.ar/_next/image?url=https%3A%2F%2Fimagenes-tualmacen.nyc3.digitaloceanspaces.com%2Fuploads%2Fmod_productos%2F2072_thumbnail_1652359945_ID-2072-1.jpg&w=128&q=75",
+        "offer": "offer",
+        "category": "fiambreria",
+        "img": "https://tualmacen.com.ar/_next/image?url=https%3A%2F%2Fimagenes-tualmacen.nyc3.digitaloceanspaces.com%2Fuploads%2Fmod_productos%2F6081_thumbnail_1600095637_adler.jpg&w=128&q=75",
         "price": 500,
-        "amount": "1 Kg",
-        "name": "Banana Ecuador",
-        "brand": ""
+        "amount": "100 Gr",
+        "name": "Queso Adler",
+        "brand": "Salame"
     },
     {
-        "category": "verduleria",
-        "img": "https://tualmacen.com.ar/_next/image?url=https%3A%2F%2Fimagenes-tualmacen.nyc3.digitaloceanspaces.com%2Fuploads%2Fmod_productos%2FID-3898-1.jpg&w=128&q=75",
-        "price": 840,
+        "offer": "offer",
+        "category": "fiambreria",
+        "img": "https://tualmacen.com.ar/_next/image?url=https%3A%2F%2Fimagenes-tualmacen.nyc3.digitaloceanspaces.com%2Fuploads%2Fmod_productos%2FID-9788-1.jpg&w=128&q=75",
+        "price": 940,
+        "amount": "250 Gr",
+        "name": "Queso La Paulina",
+        "brand": "Gauda"
+    },
+    {
+        "category": "fiambreria",
+        "img": "https://tualmacen.com.ar/_next/image?url=https%3A%2F%2Fimagenes-tualmacen.nyc3.digitaloceanspaces.com%2Fuploads%2Fmod_productos%2F6027_thumbnail_1623157098_10818386055ea0ba07244ca3.08581861_CremosoOctavoCremac011.jpg&w=128&q=75",
+        "price": 1300,
         "amount": "500 Gr",
-        "name": "Kiwi mediano",
-        "brand": ""
+        "name": "Queso Cremoso",
+        "brand": "Cremac"
     },
     {
-        "category": "verduleria",
-        "img": "https://tualmacen.com.ar/_next/image?url=https%3A%2F%2Fimagenes-tualmacen.nyc3.digitaloceanspaces.com%2Fuploads%2Fmod_productos%2F2102_thumbnail_1663082142_ID-7601-1.jpg&w=128&q=75",
-        "price": 130,
-        "amount": "500 Gr",
-        "name": "Limon",
-        "brand": ""
+        "category": "fiambreria",
+        "img": "https://tualmacen.com.ar/_next/image?url=https%3A%2F%2Fimagenes-tualmacen.nyc3.digitaloceanspaces.com%2Fuploads%2Fmod_productos%2FID-7900-1.jpg&w=128&q=75",
+        "price": 1250,
+        "amount": "250 Gr",
+        "name": "Queso Reggianito",
+        "brand": "Romanito Chamen"
     },
     {
-        "category": "verduleria",
-        "img": "https://tualmacen.com.ar/_next/image?url=https%3A%2F%2Fimagenes-tualmacen.nyc3.digitaloceanspaces.com%2Fuploads%2Fmod_productos%2FID-2104-1.jpg&w=128&q=75",
-        "price": 600,
-        "amount": "1 Kg",
-        "name": "Manzana Roja",
-        "brand": ""
+        "category": "fiambreria",
+        "img": "https://tualmacen.com.ar/_next/image?url=https%3A%2F%2Fimagenes-tualmacen.nyc3.digitaloceanspaces.com%2Fuploads%2Fmod_productos%2FID-5202-1.jpg&w=128&q=75",
+        "price": 660,
+        "amount": "200 Gr",
+        "name": "Queso La Serenísima",
+        "brand": "Cheddar"
     },
     {
-        "category": "verduleria",
-        "img": "https://tualmacen.com.ar/_next/image?url=https%3A%2F%2Fimagenes-tualmacen.nyc3.digitaloceanspaces.com%2Fuploads%2Fmod_productos%2FID-2105-1.jpg&w=128&q=75",
-        "price": 900,
-        "amount": "1 Kg",
-        "name": "Manzana Verde",
-        "brand": ""
+        "category": "fiambreria",
+        "img": "https://tualmacen.com.ar/_next/image?url=https%3A%2F%2Fimagenes-tualmacen.nyc3.digitaloceanspaces.com%2Fuploads%2Fmod_productos%2F9847_thumbnail_1668790471_ID-9847-1.jpg&w=128&q=75",
+        "price": 400,
+        "amount": "200 Gr",
+        "name": "Fiambre de Cerdo",
+        "brand": "Cagnoli Feteado"
     },
     {
-        "category": "verduleria",
-        "img": "https://tualmacen.com.ar/_next/image?url=https%3A%2F%2Fimagenes-tualmacen.nyc3.digitaloceanspaces.com%2Fuploads%2Fmod_productos%2FID-2077-1.jpg&w=128&q=75",
-        "price": 280,
-        "amount": "1 Kg",
-        "name": "Cebolla",
-        "brand": ""
+        "category": "fiambreria",
+        "img": "https://tualmacen.com.ar/_next/image?url=https%3A%2F%2Fimagenes-tualmacen.nyc3.digitaloceanspaces.com%2Fuploads%2Fmod_productos%2FID-7278-1.jpg&w=128&q=75",
+        "price": 1150,
+        "amount": "100 Gr",
+        "name": "Jamón Crudo",
+        "brand": "Paladini"
     },
     {
-        "category": "verduleria",
-        "img": "https://tualmacen.com.ar/_next/image?url=https%3A%2F%2Fimagenes-tualmacen.nyc3.digitaloceanspaces.com%2Fuploads%2Fmod_productos%2FID-2108-1.jpg&w=128&q=75",
-        "price": 270,
-        "amount": "500 Gr",
-        "name": "Morrón Rojo",
-        "brand": ""
-    },
-    {
-        "category": "verduleria",
-        "img": "https://tualmacen.com.ar/_next/image?url=https%3A%2F%2Fimagenes-tualmacen.nyc3.digitaloceanspaces.com%2Fuploads%2Fmod_productos%2F2113_thumbnail_1518414175_papa_negra.jpg&w=128&q=75",
-        "price": 300,
-        "amount": "1 Kg",
-        "name": "Papa Negra",
-        "brand": ""
+        "offer": "offer",
+        "category": "fiambreria",
+        "img": "https://tualmacen.com.ar/_next/image?url=https%3A%2F%2Fimagenes-tualmacen.nyc3.digitaloceanspaces.com%2Fuploads%2Fmod_productos%2FID-9832-1.jpg&w=128&q=75",
+        "price": 310,
+        "amount": "150 Gr",
+        "name": "Leberwurst Cagnoli",
+        "brand": "Tradicional"
     },
     {
         "category": "kiosko",
@@ -281,6 +292,7 @@
         "brand": "Triple blanco"
     },
     {
+        "offer": "offer",
         "category": "kiosko",
         "img": "https://tualmacen.com.ar/_next/image?url=https%3A%2F%2Fimagenes-tualmacen.nyc3.digitaloceanspaces.com%2Fuploads%2Fmod_productos%2F8136_thumbnail_1619463033_Barra_de_Cereal_Mix_Chocolate_con_Almendras_23_Gr.jpg&w=128&q=75",
         "price": 180,
@@ -289,6 +301,7 @@
         "brand": "Chocolate con Almendras"
     },
     {
+        "offer": "offer",
         "category": "kiosko",
         "img": "https://tualmacen.com.ar/_next/image?url=https%3A%2F%2Fimagenes-tualmacen.nyc3.digitaloceanspaces.com%2Fuploads%2Fmod_productos%2F5840_thumbnail_1652978224_Chocolate_Cadbury_Frutilla_27_Gr.jpg&w=128&q=75",
         "price": 245,
@@ -297,6 +310,7 @@
         "brand": "Frutilla"
     },
     {
+        "offer": "offer",
         "category": "kiosko",
         "img": "https://tualmacen.com.ar/_next/image?url=https%3A%2F%2Fimagenes-tualmacen.nyc3.digitaloceanspaces.com%2Fuploads%2Fmod_productos%2F8917_thumbnail_1657217568_ID-8917-1.jpg&w=128&q=75",
         "price": 424,
@@ -312,6 +326,7 @@
         "name": "Chocolate Milka",
         "brand": "Leger con Almendras"
     },  {
+        "offer": "offer",
         "category": "kiosko",
         "img": "https://tualmacen.com.ar/_next/image?url=https%3A%2F%2Fimagenes-tualmacen.nyc3.digitaloceanspaces.com%2Fuploads%2Fmod_productos%2FID-5416-1.jpg&w=128&q=75",
         "price": 300,

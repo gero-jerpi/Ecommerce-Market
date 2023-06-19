@@ -1,4 +1,10 @@
 import './style.css'
+import { showNav } from './nav.js'
+
+// Función para mostrar el nav
+showNav()
+
+// Login
 
 let storedUsers = [{
     user: "admin",
@@ -14,9 +20,6 @@ function verifyLocalStorage() {
 }
 
 verifyLocalStorage()
-
-
-// Login
 
 const userLogin = document.getElementById("user-login")
 const passwordLogin = document.getElementById("password-login")
