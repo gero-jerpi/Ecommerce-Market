@@ -10,6 +10,8 @@
   -webkit-text-size-adjust: 100%;
 }
 
+/* General */
+
 *{
   margin: 0;
   padding: 0;
@@ -22,88 +24,91 @@ body{
 }
 
 /* Header */
-header{
+header {
   display: flex;
   justify-content: space-between;
   padding: 1.2rem;
-  
+
   background-color: white;
 
   position: relative;
   z-index: 10;
 }
 
-header svg{
+header svg {
   cursor: pointer;
 }
 
-nav{
+nav {
   position: absolute;
-  transform: translatex(-150%);
-
+  transform: translateX(-150%);
 
   z-index: 1;
 
   padding: 0.5rem 0 0.5rem 3rem;
-  line-height: 1.8rem;  
-  
+  line-height: 1.8rem;
+
   font-weight: 600;
 }
 
-nav li{
+nav li {
   width: 8rem;
   list-style: none;
 }
 
-nav a{
+nav a {
   color: black;
   text-decoration: none;
 }
 
-nav .li-products{
+nav .li-products {
   display: flex;
   gap: 0.5rem;
   cursor: pointer;
 }
 
-nav .li-products svg{
+nav .li-products svg {
   margin-top: 0.7rem;
 }
 
-.show-nav{
+.show-nav {
   position: static;
-  transform: translateY(0);
+  transform: translateX(0);
   transition: all 1s ease;
 }
 
-.menu-options{
+
+/* Menu nav */
+.menu-options {
   position: absolute;
   transform: translateX(-150%);
   padding: 0.5rem 0 0.5rem 3rem;
   cursor: pointer;
 }
 
-.menu-options li{
+.menu-options li {
   font-weight: 400;
   list-style: disc;
 }
 
-.show-menu-options{
+.show-menu-options {
   position: relative;
   top: 0;
   transform: translateY(0);
   transition: all 1s ease;
 }
 
-main{
+
+/* Main */
+main {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-main ul{
+main ul {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   place-items: center;
-  gap: 0.5rem;
+  gap: 1.5rem;
 }

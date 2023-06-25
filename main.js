@@ -1,21 +1,18 @@
 import './style.css'
-import { fetchData } from './renderProducts.js'
-import { showNav } from './nav.js'
+import { getData } from './js/getData.js';
+import { showNav } from './js/showNav.js';
+import { connectedUser } from './js/connectedUser';
+import { cerrarSesion } from './js/cerrarSesion';
 
 // Mensaje de bienvenida con nombre del usuario
-const name = document.getElementById("user-name")
+connectedUser()
 
-function verifyLocalStorage() {
-    const userName = JSON.parse(localStorage.getItem("user-name"))
-    if (userName != null) {
-        name.innerHTML = `<p style="font-size:1.2rem; margin-left: 0.5rem;">¡Bienvenido ${userName}!</p>`
-    }
-}
-verifyLocalStorage()
+// Cerrar sesión
+cerrarSesion()
 
 // Función para mostrar el nav
 showNav()
 
 // Función para mostrar productos
-fetchData()
+getData()
 
