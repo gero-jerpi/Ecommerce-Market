@@ -1,7 +1,1 @@
-Preguntas:
-1- Puedo crear carpetas para almacenar los scripts y los htmls para que no esten sueltos y este mas ordenado?
-2- El main.js y el index.html deberian quedar afuera no?
-2- Si es el caso, yo ya lo intente no me dejaba importar el css
-4- Esta bien si en vez de usar el import uso el localStorage?
-5- Porque cuando hago un import se me importa todo
-6- Como funciona el localStorage es decir si un usuario almacena algo puede ver todos los usuarios almacenados o como hago para que no lo puedan ver?
+ - Preguntar como hacer para que no importe la mayuscula o la minuscula al momento de verificar con la base de de datos

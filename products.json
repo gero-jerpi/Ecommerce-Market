@@ -277,11 +277,11 @@
     },
     {
         "category": "kiosko",
-        "img": "https://tualmacen.com.ar/_next/image?url=https%3A%2F%2Fimagenes-tualmacen.nyc3.digitaloceanspaces.com%2Fuploads%2Fmod_productos%2FAlfajor%20Cachafaz%20Negro.jpg&w=128&q=75",
-        "price": 320,
-        "amount": "70 Gr",
-        "name": "Alfajor Cachafaz",
-        "brand": "Chocolate Negro"
+        "img": "https://tualmacen.com.ar/_next/image?url=https%3A%2F%2Fimagenes-tualmacen.nyc3.digitaloceanspaces.com%2Fuploads%2Fmod_productos%2F9095_thumbnail_1658344733_ID-9095-1.jpg&w=128&q=75",
+        "price": 1100,
+        "amount": "50 Gr",
+        "name": "Tabajo Las Hojas",
+        "brand": "Sabor Vainilla"
     },
     {
         "category": "kiosko",
