@@ -11,62 +11,126 @@
 
   <!-- Header -->
 
-  <header>
-    <svg width="60" height="60" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none"
-      stroke-linecap="round" stroke-linejoin="round">
-      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M6 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
-      <path d="M17 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
-      <path d="M17 17h-11v-14h-2" />
-      <path d="M6 5l14 1l-1 7h-13" />
-    </svg>
+  <div>
 
-    <svg id="menu" width="60" height="60" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none"
-      stroke-linecap="round" stroke-linejoin="round">
-      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M4 6l16 0" />
-      <path d="M4 12l16 0" />
-      <path d="M4 18l16 0" />
-    </svg>
-  </header>
+    <header id="header">
+      <svg id="cart-icon" width="60" height="60" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none"
+        stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+        <path d="M6 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+        <path d="M17 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+        <path d="M17 17h-11v-14h-2" />
+        <path d="M6 5l14 1l-1 7h-13" />
+      </svg>
 
-  <!-- Nav -->
+      <svg id="menu" width="60" height="60" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none"
+        stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+        <path d="M4 6l16 0" />
+        <path d="M4 12l16 0" />
+        <path d="M4 18l16 0" />
+      </svg>
+    </header>
 
-  <nav id="nav">
-    <ul>
-      <li><a href="index.html">INICIO</a></li>
-      <li>
-        <div class="li-products" id="show-options">
-          <p>PRODUCTOS</p>
-          <svg width="15" height="15" fill="black">
-            <path d="m1 1.152 5.445 5.445a1 1 0 0 0 1.414 0l5.446-5.445" stroke="#000000" stroke-width="0"
-              stroke-linecap="round"></path>
-          </svg>
-        </div>
-        <div class="menu-options" id="menu-options">
-          <ul>
-            <li id="almacen">ALMACEN</li>
-            <li id="limpieza">LIMPIEZA</li>
-            <li id="congelados">CONGELADOS</li>
-            <li id="fiambreria">FIAMBRERIA</li>
-            <li id="kiosko">KIOSKO</li>
-          </ul>
-        </div>
-      </li>
-      <li><a href="pages/login.html">INICIAR SESION</a></li>
-    </ul>
-  </nav>
+    <nav id="nav">
+      <ul>
+        <li><a href="#">Inicio</a></li>
+        <li id="ofertas"><a href="#">Ofertas</a></li>
+        <li>
+          <div class="li-products" id="show-options">
+            <p>Productos</p>
+            <svg width="15" height="15" fill="black">
+              <path d="m1 1.152 5.445 5.445a1 1 0 0 0 1.414 0l5.446-5.445" stroke="#000000" stroke-width="0"
+                stroke-linecap="round"></path>
+            </svg>
+          </div>
+          <div class="menu-options" id="menu-options">
+            <ul>
+              <li id="almacen"><a href="#">Almacen</a></li>
+              <li id="limpieza"><a href="#">Limpieza</a></li>
+              <li id="congelados"><a href="#">Congelados</a></li>
+              <li id="fiambreria"><a href="#">Fiambreria</a></li>
+              <li id="kiosko"><a href="#">Kiosko</a></li>
+            </ul>
+          </div>
+        </li>
+        <li id="user-name"><a href="pages/login.html">Iniciar sesión</a></li>
+      </ul>
+    </nav>
 
-  <p id="user-name" style="font-size:1.2rem; margin-left: 1rem;">¿Aún no se registro? Haga click <a href="pages/register.html">aquí</a></p>
-  <p id="sign-off" style="font-size:1.2rem; margin-left: 1.1rem; cursor: pointer;">Cerrar sesión</p>
+  </div>
 
-  <a style="font-size: 1.3rem;margin-left: 1rem;" href="pages/admin.html">ADMIN</a>
 
-  <h3 id="category">Ofertas</h3>
-  
+  <!-- Cart -->
+
+  <div id="cart" class="cart">
+    <h3>Carrito</h3>
+    <ul id="cart-list"></ul>
+  </div>
+
+
+  <!--Main-->
+
   <main>
+    <h3 id="category">OFERTAS</h3>
+
     <ul id="list-products"></ul>
   </main>
+
+
+  <!--Footer-->
+
+  <footer>
+
+    <button class="scroll-top">
+      <a href="#">
+        <svg width="55" height="55" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none"
+          stroke-linecap="round" stroke-linejoin="round">
+          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+          <path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0" />
+          <path d="M12 8l-4 4" />
+          <path d="M12 8v8" />
+          <path d="M16 12l-4 -4" />
+        </svg>
+      </a>
+    </button>
+
+    <ul>
+      <li>Sobre Nosotros</li>
+      <li>Preguntas Frecuentes</li>
+      <li>Soporte</li>
+    </ul>
+
+    <hr>
+
+    <div class="contacto">
+      <h2>Atención al Cliente</h2>
+      <p>Alguna duda? Contáctanos por <a href="https://api.whatsapp.com/send?phone=5492235759592"
+          target="_blank">WhatsApp</a></p>
+      <img src="assets/qr.png" alt="Código QR">
+    </div>
+
+    <div class="iconos">
+      <button class="facebook">
+        <svg width="45" height="45" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none"
+          stroke-linecap="round" stroke-linejoin="round">
+          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+          <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" />
+        </svg>
+      </button>
+      <button class="instagram">
+        <svg width="45" height="45" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none"
+          stroke-linecap="round" stroke-linejoin="round">
+          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+          <path d="M4 4m0 4a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z" />
+          <path d="M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+          <path d="M16.5 7.5l0 .01" />
+        </svg>
+      </button>
+    </div>
+
+  </footer>
+
 
 
   <script type="module" src="../main.js"></script>

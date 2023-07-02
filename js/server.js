@@ -14,7 +14,7 @@ const connection = mysql.createConnection({
   host: 'localhost',
   user: 'root',
   database: 'ecommercemarket',
-  password: "*"
+  password: "gerocrack123"
 });
 
 app.get("/users", (req, res) => {

@@ -71,7 +71,7 @@
         "img": "https://tualmacen.com.ar/_next/image?url=https%3A%2F%2Fimagenes-tualmacen.nyc3.digitaloceanspaces.com%2Fuploads%2Fmod_productos%2F4052_thumbnail_1651599132_ID-4052-1.jpg&w=128&q=75",
         "price": 520,
         "amount": "250 ML",
-        "name": "Aromatizante de Tela",
+        "name": "Aromatizante",
         "brand": "Poett"
     },
     {
@@ -80,7 +80,7 @@
         "img": "https://tualmacen.com.ar/_next/image?url=https%3A%2F%2Fimagenes-tualmacen.nyc3.digitaloceanspaces.com%2Fuploads%2Fmod_productos%2F5686_thumbnail_1666193791_ID-5686-1.jpg&w=128&q=75",
         "price": 230,
         "amount": "45 x 60 CM 10 Un",
-        "name": "Bolsas para Residuos",
+        "name": "Bolsas de Residuos",
         "brand": "Make"
     },
     {
@@ -97,7 +97,7 @@
         "img": "https://tualmacen.com.ar/_next/image?url=https%3A%2F%2Fimagenes-tualmacen.nyc3.digitaloceanspaces.com%2Fuploads%2Fmod_productos%2F8955_thumbnail_1651687495_ID-4072-1.jpg&w=128&q=75",
         "price": 470,
         "amount": "332 Ml",
-        "name": "Desinfectante en Aerosol",
+        "name": "Desinfectante",
         "brand": "Ayudín"
     },
     {
@@ -114,7 +114,7 @@
         "img": "https://tualmacen.com.ar/_next/image?url=https%3A%2F%2Fimagenes-tualmacen.nyc3.digitaloceanspaces.com%2Fuploads%2Fmod_productos%2FBroches%20de%20Plastico%20Task.jpg&w=128&q=75",
         "price": 510,
         "amount": "360 Ml",
-        "name": "Desodorante Ambiental",
+        "name": "Desodorante",
         "brand": "Glade"
     },
     {
@@ -135,27 +135,27 @@
     },
     {
         "category": "congelados",
-        "img": "https://tualmacen.com.ar/_next/image?url=https%3A%2F%2Fimagenes-tualmacen.nyc3.digitaloceanspaces.com%2Fuploads%2Fmod_productos%2F5744_thumbnail_1650376309_Bastones_De_Merluza_Crocante_Grupolar_500_Gr.jpg&w=128&q=75",
-        "price": 710,
+        "img": "https://tualmacen.com.ar/_next/image?url=https%3A%2F%2Fimagenes-tualmacen.nyc3.digitaloceanspaces.com%2Fuploads%2Fmod_productos%2FID-10205-1.jpg&w=128&q=75",
+        "price": 565,
         "amount": "500 Gr",
-        "name": "Bastones de Merluza",
-        "brand": "Grupolar"
+        "name": "Acelga",
+        "brand": "Green Life"
     },
     {
         "category": "congelados",
-        "img": "https://tualmacen.com.ar/_next/image?url=https%3A%2F%2Fimagenes-tualmacen.nyc3.digitaloceanspaces.com%2Fuploads%2Fmod_productos%2FID-8968-1.jpg&w=128&q=75",
-        "price": 1550,
-        "amount": "400 Gr",
-        "name": "Bastones de Muzzarella",
-        "brand": "Solimeno"
+        "img": "https://tualmacen.com.ar/_next/image?url=https%3A%2F%2Fimagenes-tualmacen.nyc3.digitaloceanspaces.com%2Fuploads%2Fmod_productos%2FID-7239-1.jpg&w=128&q=75",
+        "price": 2600,
+        "amount": "1 Kg",
+        "name": "Aros de Cebolla",
+        "brand": "McCain"
     },
     {
         "category": "congelados",
-        "img": "https://tualmacen.com.ar/_next/image?url=https%3A%2F%2Fimagenes-tualmacen.nyc3.digitaloceanspaces.com%2Fuploads%2Fmod_productos%2FBocaditos%20Swift%20de%20Pollo.jpg&w=128&q=75",
-        "price": 1000,
-        "amount": "380 Gr",
-        "name": "Bocaditos de Pollo",
-        "brand": "Swift"
+        "img": "https://tualmacen.com.ar/_next/image?url=https%3A%2F%2Fimagenes-tualmacen.nyc3.digitaloceanspaces.com%2Fuploads%2Fmod_productos%2FChicken%20Fingers%20Sadia%20720%20gr.jpg&w=128&q=75",
+        "price": 2400,
+        "amount": "720 Gr",
+        "name": "Chicken Fingers",
+        "brand": "Sadia"
     },
     {
         "offer": "offer",
@@ -169,18 +169,18 @@
     {
         "offer": "offer",
         "category": "congelados",
-        "img": "https://tualmacen.com.ar/_next/image?url=https%3A%2F%2Fimagenes-tualmacen.nyc3.digitaloceanspaces.com%2Fuploads%2Fmod_productos%2FID-8731-1.jpg&w=128&q=75",
-        "price": 1010,
-        "amount": "330 Gr",
-        "name": "Medallones de Pollo",
-        "brand": "Granja del Sol"
+        "img": "https://tualmacen.com.ar/_next/image?url=https%3A%2F%2Fimagenes-tualmacen.nyc3.digitaloceanspaces.com%2Fuploads%2Fmod_productos%2FID-8969-1.jpg&w=128&q=75",
+        "price": 1620,
+        "amount": "400 Gr",
+        "name": "Filet",
+        "brand": "Solimeno"
     },
     {
         "category": "congelados",
         "img": "https://tualmacen.com.ar/_next/image?url=https%3A%2F%2Fimagenes-tualmacen.nyc3.digitaloceanspaces.com%2Fuploads%2Fmod_productos%2F9528_thumbnail_1655816349_id-9528-1.jpg&w=128&q=75",
         "price": 2570,
         "amount": "1 Kg",
-        "name": "Pechuga de Pollo",
+        "name": "Pechugas",
         "brand": "Tres Arroyos"
     },
     {
@@ -197,7 +197,7 @@
         "img": "https://tualmacen.com.ar/_next/image?url=https%3A%2F%2Fimagenes-tualmacen.nyc3.digitaloceanspaces.com%2Fuploads%2Fmod_productos%2FHamburguesa%20Swift%20Cl%C3%A1sica%202%20Un.jpg&w=128&q=75",
         "price": 560,
         "amount": "160 Gr",
-        "name": "Hamburguesa Clásica",
+        "name": "Hamburguesas",
         "brand": "Swift"
     },
     {
@@ -264,8 +264,8 @@
         "img": "https://tualmacen.com.ar/_next/image?url=https%3A%2F%2Fimagenes-tualmacen.nyc3.digitaloceanspaces.com%2Fuploads%2Fmod_productos%2FID-9832-1.jpg&w=128&q=75",
         "price": 310,
         "amount": "150 Gr",
-        "name": "Leberwurst Cagnoli",
-        "brand": "Tradicional"
+        "name": "Leberwurst",
+        "brand": "Cagnoli"
     },
     {
         "category": "kiosko",
@@ -292,7 +292,6 @@
         "brand": "Triple blanco"
     },
     {
-        "offer": "offer",
         "category": "kiosko",
         "img": "https://tualmacen.com.ar/_next/image?url=https%3A%2F%2Fimagenes-tualmacen.nyc3.digitaloceanspaces.com%2Fuploads%2Fmod_productos%2F8136_thumbnail_1619463033_Barra_de_Cereal_Mix_Chocolate_con_Almendras_23_Gr.jpg&w=128&q=75",
         "price": 180,
@@ -301,7 +300,6 @@
         "brand": "Chocolate con Almendras"
     },
     {
-        "offer": "offer",
         "category": "kiosko",
         "img": "https://tualmacen.com.ar/_next/image?url=https%3A%2F%2Fimagenes-tualmacen.nyc3.digitaloceanspaces.com%2Fuploads%2Fmod_productos%2F5840_thumbnail_1652978224_Chocolate_Cadbury_Frutilla_27_Gr.jpg&w=128&q=75",
         "price": 245,
@@ -310,7 +308,6 @@
         "brand": "Frutilla"
     },
     {
-        "offer": "offer",
         "category": "kiosko",
         "img": "https://tualmacen.com.ar/_next/image?url=https%3A%2F%2Fimagenes-tualmacen.nyc3.digitaloceanspaces.com%2Fuploads%2Fmod_productos%2F8917_thumbnail_1657217568_ID-8917-1.jpg&w=128&q=75",
         "price": 424,
@@ -326,7 +323,6 @@
         "name": "Chocolate Milka",
         "brand": "Leger con Almendras"
     },  {
-        "offer": "offer",
         "category": "kiosko",
         "img": "https://tualmacen.com.ar/_next/image?url=https%3A%2F%2Fimagenes-tualmacen.nyc3.digitaloceanspaces.com%2Fuploads%2Fmod_productos%2FID-5416-1.jpg&w=128&q=75",
         "price": 300,
