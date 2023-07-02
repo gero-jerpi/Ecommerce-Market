@@ -20,7 +20,6 @@ async function getApi() {
         }
         const userSearch = storedUsers.find((user) => user.user === userRegister.value)
         if (userSearch === undefined) {
-
             alert("Usuario creado")
 
             fetch('http://localhost:3000/add-user', {
