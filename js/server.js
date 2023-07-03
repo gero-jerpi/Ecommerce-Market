@@ -1,6 +1,9 @@
 import express from 'express'
 import mysql from 'mysql2'
 import cors from 'cors'
+import dotenv from 'dotenv'
+
+dotenv.config()
 
 const app = express()
 
@@ -11,10 +14,10 @@ app.use(cors({
 }))
 
 const connection = mysql.createConnection({
-  host: 'localhost',
-  user: 'root',
-  database: 'ecommercemarket',
-  password: "*"
+  host: process.env.DATABASE_HOST,
+  user: process.env.DATABASE_USER,
+  database: process.env.DATABASE_NAME,
+  password: process.env.DATABASE_PASSWORD
 });
 
 app.get("/users", (req, res) => {
@@ -36,11 +39,11 @@ app.post("/register", (req, res) => {
     ("${email}", "${user}", "${password}")
     `,
     (err, results) => {
+ 
       if (!err) {
-        res.status(200).send("Usuario creado")
-
+        res.status(201).send("Usuario creado")
       } else {
-        res.status(500).send(err)
+        res.status(400).send(err)
       }
 
     })
@@ -52,14 +55,20 @@ app.post("/login", (req, res) => {
 
     if (err) {
       res.status(500).json(err)
+      return;
     }
     
-    const verifyUser = { ...result[0] }
+    if (result.length === 0) {
+      res.status(400).json({ msg: "Usuario incorrecto"})
+      return;
+    }
 
-    if (verifyUser.password === password) {
-      res.status(200).json(verifyUser)
+    const usuario = { ...result[0] }
+
+    if (usuario.password === password) {
+      res.status(200).json(usuario)
     } else {
-      res.status(400).json({ message: "Contraseña incorrecta" })
+      res.status(400).json({ msg: "Contraseña incorrecta" })
     }
   }
   )
