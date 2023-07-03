@@ -3,6 +3,7 @@ USE ecommercemarket;
 
 CREATE TABLE users (
 	id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    email VARCHAR(300) UNIQUE,
     user VARCHAR(50) UNIQUE,
     password VARCHAR(50)
 );
