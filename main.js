@@ -14,6 +14,5 @@ showNav()
 // Función para mostrar productos
 getData()
 
-// Funcionalidad del carrito
+// Funcionalidad del carrito && Boton para agregar al carrito
 cart()
-

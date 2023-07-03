@@ -166,9 +166,25 @@ main ul li .div-datos {
   gap: 0.15rem;
 }
 
-main ul li svg {
+
+main ul li button{
   align-self: flex-end;
-  margin: auto -0.5rem;
+  margin: auto 0rem;
+  border: 0.2rem solid black;
+  height: 35px;
+  width: 35px;
+  border-radius: 1rem;
+  font-size: 1.5rem;
+}
+
+main ul li h4{
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+
+main ul li span{
+  font-size: 0.8rem;
+  font-weight: 400;
 }
 
 main h3 {
