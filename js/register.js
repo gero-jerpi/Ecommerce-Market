@@ -6,7 +6,6 @@ const passwordRegister = document.getElementById("password-register")
 const emailRegister = document.getElementById("email-register")
 const formRegister = document.getElementById("form-register")
 
-
 async function getApi() {
     formRegister.addEventListener("submit", async (e) => {
         e.preventDefault()

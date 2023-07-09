@@ -7,7 +7,7 @@ const header = document.getElementById("header")
 export async function getData() {
     const api = await fetch('http://localhost:3000/products')
     const response = await api.json()
-    
+
     // Offer
     const filterOffer = response.filter((prod) => prod.offer === 1)
     renderOffer(filterOffer)
@@ -90,7 +90,7 @@ function renderOffer(products) {
         <h4 class="name">${e.name}</h4>
         <span>${e.brand}</span>
         </div>
-       <button onclick="addToCart('${e.name}','${e.brand }','${e.price}')">+</button>
+       <button onclick="addToCart('${e.name}','${e.brand}','${e.price}')">+</button>
         `
         listProducts.appendChild(li)
     })
@@ -108,7 +108,7 @@ function renderProducts(products) {
             <h4 class="name">${e.name}</h4>
             <span>${e.brand}</span>
             </div>
-           <button onclick="addToCart('${e.name}','${e.brand }','${e.price}')" class="add-cart">+</button>
+           <button onclick="addToCart('${e.name}','${e.brand}','${e.price}')" class="add-cart">+</button>
         `
 
         listProducts.appendChild(li)

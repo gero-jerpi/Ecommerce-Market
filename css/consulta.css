@@ -1,0 +1,60 @@
+/* Consulta */
+
+.consulta {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 1rem;
+}
+
+.consulta p {
+    text-align: center;
+    width: 60%;
+}
+
+.consulta h3 {
+    font-size: 2rem;
+}
+
+.consulta form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 1.5rem;
+    margin-top: 1rem;
+}
+
+.consulta form input {
+    width: 60%;
+    padding: 0.7rem;
+}
+
+.consulta form textarea {
+    width: 60%;
+    height: 100px;
+    padding: 0.5rem;
+}
+
+.consulta form input[type="submit"] {
+    width: 35%;
+    padding: 0.5rem;
+    border: none;
+
+    margin-top: 0.3rem;
+
+    background-color: rgb(150, 202, 255);
+}
+
+.consulta form input[type="submit"]:hover {
+    background-color: rgb(90, 221, 111);
+}
+
+.consulta svg {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+}

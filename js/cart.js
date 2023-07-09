@@ -2,6 +2,7 @@ const cartIcon = document.getElementById("cart-icon")
 const cartList = document.getElementById("cart-list")
 const volverCart = document.getElementById("volver-cart")
 const precioTotal = document.getElementById("precio-total")
+const btnComprar = document.getElementById("btn-comprar")
 
 volverCart.addEventListener("click", () => {
     cart.classList.remove("show-cart")
@@ -26,14 +27,22 @@ function addToCart(name, brand, price) {
 
     if (productExist) {
         productExist.quantity++;
-        alert("Producto actualizado")
+        swal("¡Producto actualizado! 😎", {
+            icon: "success",
+            button: false,
+            timer: 1000,
+        })
 
         total.push(Number(productExist.price))
         actualizarTotal()
 
     } else {
         cartProducts.push(producto)
-        alert("Producto agregado al carrito")
+        swal("¡Producto agregado al carrito! 😎", {
+            icon: "success",
+            button: false,
+            timer: 1000,
+        })
 
         total.push(Number(producto.price))
         actualizarTotal()
@@ -85,3 +94,10 @@ function actualizarTotal() {
     let totalPrice = total.reduce((a, v) => a + v, 0);
     precioTotal.innerText = totalPrice;
 }
+
+btnComprar.addEventListener("click", () => {
+    cartProducts = []
+    total = []
+    actualizarTotal();
+    renderizarProducts()
+})

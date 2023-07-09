@@ -1,0 +1,123 @@
+/* Admin NAV */
+
+.nav-admin {
+    background-color: black;
+    color: white;
+    border-radius: 0 0 1.5rem 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.nav-admin ul {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 1rem;
+
+    list-style: none;
+
+    cursor: pointer;
+}
+
+.nav-admin a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Products admin */
+
+.products-admin h3 {
+    margin-top: 19vh;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.products-admin ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.products-admin li {
+    margin: 1rem;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    padding: 0.8rem;
+    gap: 0.7rem;
+    font-size: 0.8rem;
+    border: 1px solid black;
+}
+
+.products-admin li div {
+    width: 100%;
+}
+
+.products-admin li button {
+    padding: 0.5rem;
+    background-color: #E65F5C;
+    color: white;
+}
+
+/* Add product admin */
+
+.add-product-admin h3 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.add-product-admin form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    width: 100%;
+
+    margin-top: 1.5rem
+}
+
+.add-product-admin form input {
+    width: 50%;
+    padding: 0.3rem;
+}
+
+.add-product-admin form input[type="submit"] {
+    width: 35%;
+    padding: 0.5rem;
+    margin: 0.5rem 0 1.5rem 0;
+    background-color: rgb(150, 202, 255);
+
+    border: none;
+}
+
+.add-product-admin form input[type="submit"]:hover {
+    background-color: rgb(90, 221, 111);
+}
+
+/* Consultas admin */
+
+.consultas-admin button {
+    height: 2.5rem;
+    width: 2.5rem;
+}
+
+.consultas-admin ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin: 1rem 0 2rem 2rem;
+}
+
+.consultas-admin ul li {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.consultas-admin h3 {
+    font-size: 2.2rem;
+    text-align: center;
+}

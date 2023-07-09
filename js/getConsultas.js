@@ -25,7 +25,6 @@ async function eliminarConsulta(id) {
         id: id
     }
 
-
     try {
         const response = await fetch('http://localhost:3000/eliminarconsulta', {
             method: 'POST',

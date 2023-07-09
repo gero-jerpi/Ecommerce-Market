@@ -5,7 +5,7 @@ const inputNombre = document.getElementById("input-nombre")
 const inputEmail = document.getElementById("input-email")
 const inputConsulta = document.getElementById("input-consulta")
 
-formulario.addEventListener("submit", async (e)=>{
+formulario.addEventListener("submit", async (e) => {
     e.preventDefault()
 
     const consulta = {
@@ -24,11 +24,11 @@ formulario.addEventListener("submit", async (e)=>{
         })
 
         if (response.ok) {
-            swal("¡Consulta enviada! 😀",{
+            swal("¡Consulta enviada! 😀", {
                 buttons: false,
                 timer: 1500
             });
-            setTimeout(()=>{
+            setTimeout(() => {
                 document.location.href = "../index.html"
             }, 1500)
             formulario.reset()
