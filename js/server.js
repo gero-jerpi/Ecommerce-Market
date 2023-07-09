@@ -13,12 +13,7 @@ app.use(cors({
   origin: "*"
 }))
 
-const connection = mysql.createConnection({
-  host: process.env.DATABASE_HOST,
-  user: process.env.DATABASE_USER,
-  database: process.env.DATABASE_NAME,
-  password: process.env.DATABASE_PASSWORD
-});
+const connection = mysql.createConnection(process.env.DATABASE_URL);
 
 app.get("/products", (req, res) => {
   connection.query('SELECT * FROM products', (err, results) => {
