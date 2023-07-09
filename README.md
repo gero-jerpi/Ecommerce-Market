@@ -13,7 +13,7 @@ El objetivo principal del proyecto es proporcionar una plataforma confiable y ef
 ## Contacto
 Si tienes alguna pregunta o sugerencia sobre el proyecto, no dudes en ponerte en contacto conmigo. 
 
-- **Discord**: [gero#7116]
+- **Discord**: gero#7116
 
 ¡No dudes en enviarme un mensaje! Estaré encantado de ayudarte en lo que necesites o responder cualquier duda que tengas sobre el proyecto.
 
