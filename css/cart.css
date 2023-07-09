@@ -1,0 +1,97 @@
+/* Cart */
+
+.cart {
+    height: 60vh;
+    width: 85%;
+  
+    background-color: grey;
+    color: white;
+  
+    position: fixed;
+    top: 7rem;
+    left: 50%;
+    transform: translateX(-50%);
+  
+    text-align: center;
+  
+    display: none;
+  
+    font-size: 0.9rem;
+  
+    color: black;
+    font-weight: 600;
+  
+    border-radius: 1.5rem;
+  }
+  
+  .cart h3 {
+    font-size: 2rem;
+    margin: 0.8rem 0 1rem 0;
+  }
+  
+  .cart ul {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    margin: 1rem;
+    height: 35vh;
+    overflow-y: auto;
+  }
+  
+  .cart ul li {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .cart .volver-cart {
+    position: absolute;
+    left: 0.5rem;
+    top: 0.8rem;
+  }
+  
+  .cart .brand-cart {
+    width: 4rem;
+  }
+  
+  .cart .name-cart {
+    width: 7rem;
+  }
+  
+  .cart .finalizar-compra {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    color: white;
+  }
+  
+  .finalizar-compra hr {
+    border: 1px solid black;
+    width: 80%;
+    margin: 0.5rem;
+  }
+  
+  .finalizar-compra button {
+    padding: 0.8rem;
+    margin-top: 0.2rem;
+    width: 50%;
+    color: white;
+    background-color: rgb(90, 221, 111);
+    border: none;
+    border-radius: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  
+  .finalizar-compra button:hover {
+    background-color: rgb(30, 200, 100);
+  }
+  
+  .show-cart {
+    display: block;
+  }
+  
+  

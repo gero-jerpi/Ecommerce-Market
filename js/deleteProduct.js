@@ -1,7 +1,9 @@
 async function eliminar(id) {
+    
     const idProduct = {
         id: id
     }
+
     try {
         const response = await fetch('http://localhost:3000/deleteproduct', {
             method: 'POST',
@@ -10,7 +12,6 @@ async function eliminar(id) {
             },
             body: JSON.stringify(idProduct)
         })
-
 
         if (response.ok) {
             swal({

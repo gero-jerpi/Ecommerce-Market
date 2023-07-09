@@ -15,14 +15,14 @@ async function getUsers() {
         }
 
         if (user.user === "admin" && user.password === "123") {
-            swal(`¡Bienvenido ${user.user}! 😎`,{
+            swal(`¡Bienvenido ${user.user}! 😎`, {
                 buttons: false,
-                timer: 1500
+                timer: 1000
             });
             setTimeout(() => {
                 document.location.href = "../pages/admin.html"
-            }, 1500);
-           
+            }, 1000);
+
             return
         }
 
@@ -37,20 +37,20 @@ async function getUsers() {
             })
 
             if (response.ok) {
-                swal(`¡Bienvenido ${user.user}! 😎`,{
+                swal(`¡Bienvenido ${user.user}! 😎`, {
                     buttons: false,
-                    timer: 1500
+                    timer: 1000
                 });
                 setTimeout(() => {
                     document.location.href = "../index.html"
                 }, 1500);
-         
+
                 localStorage.setItem("user-name", JSON.stringify(user.user))
-         
-            }else{
-                swal("¡Datos incorrectos! 😐",{
+
+            } else {
+                swal("¡Datos incorrectos! 😐", {
                     buttons: false,
-                    timer: 2000
+                    timer: 1000
                 });
                 formLogin.reset()
             }

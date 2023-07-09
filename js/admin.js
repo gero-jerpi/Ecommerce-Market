@@ -10,12 +10,6 @@ async function getData() {
 
 getData()
 
-let addProductToCart = {
-    name: "",
-    price: ""
-}
-const productsToCart = []
-
 function renderProducts(products) {
     products.forEach((e) => {
         const li = document.createElement("li")

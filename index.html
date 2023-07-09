@@ -4,12 +4,11 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title></title>
+  <title>Ecommerce Market</title>
+  <link rel="stylesheet" href="css/cart.css">
 </head>
 
 <body>
-
-  <!-- Header -->
 
   <div>
 
@@ -60,10 +59,8 @@
 
   </div>
 
+  <section id="cart" class="cart">
 
-  <!-- Cart -->
-
-  <div id="cart" class="cart">
     <svg class="volver-cart" id="volver-cart" width="50" height="50" viewBox="0 0 24 24" stroke-width="1.5"
       stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
@@ -76,21 +73,18 @@
     <div class="finalizar-compra">
       <hr>
       <p>El total de su compra es de <span id="precio-total">0</span></p>
-      <button>Comprar ahora</button>
+      <button id="btn-comprar">Comprar ahora</button>
     </div>
-  </div>
 
-
-  <!--Main-->
+  </section>
 
   <main id="main" class="main_container">
+
     <h3 id="category">OFERTAS</h3>
 
     <ul id="list-products"></ul>
+
   </main>
-
-
-  <!--Footer-->
 
   <footer>
 
@@ -152,6 +146,7 @@
 
   <script src="js/cart.js"></script>
   <script type="module" src="./main.js"></script>
+
 </body>
 
 </html>

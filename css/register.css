@@ -1,0 +1,59 @@
+/* Register */
+
+.section-register {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 2rem;
+  
+    height: 100vh;
+  
+  }
+  
+  .section-register h2 {
+    font-size: 1.7rem;
+  }
+  
+  .section-register p {
+    width: 75%;
+  }
+  
+  .section-register form {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+  }
+  
+  .section-register form h4 {
+    font-size: 1.1rem
+  }
+  
+  .section-register form input {
+    padding: 1rem;
+    width: 70%;
+    border-radius: 2rem;
+  }
+  
+  .section-register form input[type="submit"] {
+    background-color: rgb(150, 202, 255);
+    border: none;
+    width: 55%;
+    margin-top: 1rem;
+    font-weight: 600;
+  }
+  
+  .section-register form input[type="submit"]:hover {
+    background-color: rgb(90, 221, 111);
+  }
+  
+  .section-register svg {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    cursor: pointer;
+  }

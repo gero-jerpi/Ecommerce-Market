@@ -1,6 +1,5 @@
 
 const formulario = document.getElementById("formulario")
-
 const inputOffer = document.getElementById("input-offer")
 const inputCategory = document.getElementById("input-category")
 const inputImg = document.getElementById("input-img")
@@ -21,7 +20,6 @@ formulario.addEventListener("submit", async (e) => {
         brand: inputBrand.value
     }
 
-
     try {
         const response = await fetch('http://localhost:3000/addproduct', {
             method: 'POST',
@@ -39,21 +37,21 @@ formulario.addEventListener("submit", async (e) => {
                 buttons: true,
                 dangerMode: true,
             })
-            .then((willDelete) => {
-                if (willDelete) {
-                  swal("¡Producto agregado! 😎", {
-                    icon: "success",
-                    button: false,
-                    timer: 1500,
-                  })
-                  setTimeout(() => {
-                    document.location.href = "http://127.0.0.1:5173/pages/admin.html"
-                  }, 1500);
-                 
-                }
-              });
+                .then((willDelete) => {
+                    if (willDelete) {
+                        swal("¡Producto agregado! 😎", {
+                            icon: "success",
+                            button: false,
+                            timer: 1500,
+                        })
+                        setTimeout(() => {
+                            document.location.href = "http://127.0.0.1:5173/pages/admin.html"
+                        }, 1500);
+
+                    }
+                });
         }
-        
+
     } catch (error) {
         console.log(error);
     }

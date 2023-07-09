@@ -4,11 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Admin</title>
+    <link rel="stylesheet" href="../css/admin.css">
     <link rel="stylesheet" href="../style.css">
 </head>
 
 <body>
+    
     <nav class="nav-admin">
         <ul>
             <li><a href="#">Productos</a></li>
@@ -17,17 +19,16 @@
             <li><a href="../index.html">Cerrar sesion</a></li>
         </ul>
     </nav>
-    
 
     <main>
-        <article class="container-products-admin">
+        <article class="products-admin">
             <h3>Productos</h3>
             <ul id="products-admin" class="list-products">
 
             </ul>
         </article>
 
-        <article class="container-add-product">
+        <article class="add-product-admin">
             <h3 id="addproduct">Agregar producto</h3>
             <form id="formulario">
                 <input type="number" placeholder="Offer" required="" id="input-offer">
@@ -41,7 +42,7 @@
             </form>
         </article>
 
-        <article class="container-consultas-admin">
+        <article class="consultas-admin">
             <h3 id="consultas">Consultas</h3>
             <ul id="lista-consultas">
 
@@ -49,11 +50,11 @@
         </article>
     </main>
 
-
     <script src="../js/getConsultas.js"></script>
     <script src="../js/addProduct.js"></script>
     <script src="../js/deleteProduct.js"></script>
     <script type="module" src="../js/admin.js"></script>
+
 </body>
 
 </html>
