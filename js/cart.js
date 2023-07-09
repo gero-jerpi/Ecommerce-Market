@@ -82,7 +82,11 @@ function renderizarProducts() {
 function eliminarProducto(name) {
     let eliminar = cartProducts.filter((product) => product.name != name)
     cartProducts = eliminar
-    alert("Producto eliminado")
+    swal("¡Producto eliminado! 😎", {
+        icon: "success",
+        button: false,
+        timer: 1000,
+    })
 
     total = cartProducts.map((product) => Number(product.price));
     actualizarTotal();
