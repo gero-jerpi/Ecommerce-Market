@@ -99,9 +99,34 @@ function actualizarTotal() {
     precioTotal.innerText = totalPrice;
 }
 
+
+
 btnComprar.addEventListener("click", () => {
-    cartProducts = []
-    total = []
-    actualizarTotal();
-    renderizarProducts()
+    const userName = JSON.parse(localStorage.getItem("user-name"))
+    if (userName === null) {
+        swal("¡Debes iniciar sesión para continuar! 😐", {
+            icon: "warning",
+            button: false,
+            timer: 1500,
+        })
+    } else if (cartProducts.length === 0) {
+        swal("¡Debe añadir productos! 😐", {
+            icon: "warning",
+            button: false,
+            timer: 1500,
+        })
+        return
+    } else {
+        cartProducts = []
+        total = []
+        actualizarTotal();
+        renderizarProducts()
+        swal(`¡Compra realizada! 😀`, {
+            icon: "success",
+            button: false,
+            timer: 2000,
+        })
+    }
+
+
 })
