@@ -5,19 +5,17 @@ const nav = document.getElementById("nav")
 const header = document.getElementById("header")
 
 export async function getData() {
-    const api = await fetch('./products.json')
+    const api = await fetch('http://localhost:3000/products')
     const response = await api.json()
-
-    console.log(response);
-
+    
     // Offer
-    const filterOffer = response.filter((prod) => prod.offer === "offer")
+    const filterOffer = response.filter((prod) => prod.offer === 1)
     renderOffer(filterOffer)
 
     const btnOfertas = document.getElementById("ofertas")
     btnOfertas.addEventListener("click", (e) => {
         nameCategory.innerText = "OFERTAS"
-        const filterOffer = response.filter((prod) => prod.offer === "offer")
+        const filterOffer = response.filter((prod) => prod.offer === 1)
         listProducts.innerHTML = ""
         renderOffer(filterOffer)
         nav.classList.remove("show-nav")

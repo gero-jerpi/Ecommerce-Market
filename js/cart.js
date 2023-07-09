@@ -1,11 +1,18 @@
 const cartIcon = document.getElementById("cart-icon")
 const cartList = document.getElementById("cart-list")
+const volverCart = document.getElementById("volver-cart")
+const precioTotal = document.getElementById("precio-total")
+
+volverCart.addEventListener("click", () => {
+    cart.classList.remove("show-cart")
+})
 
 cartIcon.addEventListener("click", () => {
     cart.classList.toggle("show-cart")
 })
 
 let cartProducts = []
+let total = []
 
 function addToCart(name, brand, price) {
     const producto = {
@@ -14,30 +21,42 @@ function addToCart(name, brand, price) {
         brand: brand,
         price: price
     }
+
     const productExist = cartProducts.find((p) => p.name === name);
+
     if (productExist) {
         productExist.quantity++;
-    }else{
+        alert("Producto actualizado")
+
+        total.push(Number(productExist.price))
+        actualizarTotal()
+
+    } else {
         cartProducts.push(producto)
+        alert("Producto agregado al carrito")
+
+        total.push(Number(producto.price))
+        actualizarTotal()
+
     }
-    
+
     renderizarProducts()
 }
 
-function renderizarProducts(){
+function renderizarProducts() {
     cartList.innerHTML = ""
-    cartProducts.forEach((e)=>{
+    cartProducts.forEach((e) => {
 
         const precio = e.quantity * e.price
 
         const li = document.createElement("li")
         li.innerHTML =
-        `
+            `
         <span>${e.quantity}</span>
-        <span>${e.name}</span>
-        <span>${e.brand}</span>
-        <span>${precio}</span>
-       <svg onclick="eliminarProducto('${e.name}')" width="28" height="28" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <span class="name-cart">${e.name}</span>
+        <span class="brand-cart">${e.brand}</span>
+        <span>$${precio}</span>
+       <svg style="cursor:pointer;" onclick="eliminarProducto('${e.name}')" width="28" height="28" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
         <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
         <path d="M4 7l16 0" />
         <path d="M10 11l0 6" />
@@ -50,8 +69,19 @@ function renderizarProducts(){
     })
 }
 
-function eliminarProducto(name){
-    let eliminar = cartProducts.filter((product)=>product.name != name)
+
+function eliminarProducto(name) {
+    let eliminar = cartProducts.filter((product) => product.name != name)
     cartProducts = eliminar
+    alert("Producto eliminado")
+
+    total = cartProducts.map((product) => Number(product.price));
+    actualizarTotal();
+
     renderizarProducts()
+}
+
+function actualizarTotal() {
+    let totalPrice = total.reduce((a, v) => a + v, 0);
+    precioTotal.innerText = totalPrice;
 }

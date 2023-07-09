@@ -9,9 +9,15 @@
 </head>
 
 <body>
-    <a href="../index.html">INDEX</a>
-    <p>Cerrar sesion</p>
-
+    <nav class="nav-admin">
+        <ul>
+            <li><a href="#">Productos</a></li>
+            <li><a href="#addproduct">Agregar producto</a></li>
+            <li><a href="#consultas">Consultas</a></li>
+            <li><a href="../index.html">Cerrar sesion</a></li>
+        </ul>
+    </nav>
+    
 
     <main>
         <article class="container-products-admin">
@@ -21,16 +27,32 @@
             </ul>
         </article>
 
-        <article>
-            <h3>consultas</h3>
-            <ul>
+        <article class="container-add-product">
+            <h3 id="addproduct">Agregar producto</h3>
+            <form id="formulario">
+                <input type="number" placeholder="Offer" required="" id="input-offer">
+                <input type="text" placeholder="Category" required="" id="input-category">
+                <input type="text" placeholder="Img" required="" id="input-img">
+                <input type="number" placeholder="Price" required="" id="input-price">
+                <input type="text" placeholder="Amount" required="" id="input-amount">
+                <input type="text" placeholder="Name" required="" id="input-name">
+                <input type="text" placeholder="Brand" required="" id="input-brand">
+                <input type="submit" value="Agregar">
+            </form>
+        </article>
+
+        <article class="container-consultas-admin">
+            <h3 id="consultas">Consultas</h3>
+            <ul id="lista-consultas">
 
             </ul>
         </article>
     </main>
 
 
-
+    <script src="../js/getConsultas.js"></script>
+    <script src="../js/addProduct.js"></script>
+    <script src="../js/deleteProduct.js"></script>
     <script type="module" src="../js/admin.js"></script>
 </body>
 
