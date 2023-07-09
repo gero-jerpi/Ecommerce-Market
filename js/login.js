@@ -1,6 +1,5 @@
 import '../style.css'
-
-// Login
+import swal from 'sweetalert';
 
 async function getUsers() {
 
@@ -16,8 +15,14 @@ async function getUsers() {
         }
 
         if (user.user === "admin" && user.password === "123") {
-            alert(`Bienvenido, ${user.user}`)
-            document.location.href = "../pages/admin.html"
+            swal(`¡Bienvenido ${user.user}! 😎`,{
+                buttons: false,
+                timer: 1500
+            });
+            setTimeout(() => {
+                document.location.href = "../pages/admin.html"
+            }, 1500);
+           
             return
         }
 
@@ -32,15 +37,23 @@ async function getUsers() {
             })
 
             if (response.ok) {
-                alert(`Bienvenido, ${user.user}`);
+                swal(`¡Bienvenido ${user.user}! 😎`,{
+                    buttons: false,
+                    timer: 1500
+                });
+                setTimeout(() => {
+                    document.location.href = "../index.html"
+                }, 1500);
+         
                 localStorage.setItem("user-name", JSON.stringify(user.user))
-                document.location.href = "../index.html"
+         
             }else{
-                alert("Datos incorrectos");
+                swal("¡Datos incorrectos! 😐",{
+                    buttons: false,
+                    timer: 2000
+                });
                 formLogin.reset()
             }
-
-
 
         } catch (error) {
             console.log("Error en la solicitud", error);

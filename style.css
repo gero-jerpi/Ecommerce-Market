@@ -50,7 +50,7 @@ header svg {
 
 }
 
-nav {
+.nav-index {
   position: absolute;
   transform: translateX(-150%);
 
@@ -69,23 +69,23 @@ nav {
 
 }
 
-nav li {
+.nav-index li {
   width: 11rem;
   list-style: none;
 }
 
-nav a {
+.nav-index a {
   color: white;
   text-decoration: none;
 }
 
-nav .li-products {
+.nav-index .li-products {
   display: flex;
   gap: 0.5rem;
   cursor: pointer;
 }
 
-nav .li-products svg {
+.nav-index .li-products svg {
   margin-top: 0.7rem;
 }
 
@@ -289,13 +289,19 @@ footer .iconos button svg {
   transform: translateX(-62%);
 }
 
+.lista-footer a{
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+
 /* Cart */
 
 .cart {
-  height: 50vh;
-  width: 80%;
+  height: 60vh;
+  width: 85%;
 
-  background-color: black;
+  background-color: grey;
   color: white;
 
   position: fixed;
@@ -305,27 +311,86 @@ footer .iconos button svg {
 
   text-align: center;
 
-
-
   display: none;
+
+  font-size: 0.9rem;
+
+  color: black;
+  font-weight: 600;
+
+  border-radius: 1.5rem;
 }
 
 .cart h3 {
   font-size: 2rem;
-  margin-top: 0.5rem;
+  margin: 0.8rem 0 1rem 0;
+}
+
+.cart ul {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  margin: 1rem;
+  height: 35vh;
+  overflow-y: auto;
+}
+
+.cart ul li {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.cart .volver-cart {
+  position: absolute;
+  left: 0.5rem;
+  top: 0.8rem;
+}
+
+.cart .brand-cart {
+  width: 4rem;
+}
+
+.cart .name-cart {
+  width: 7rem;
+}
+
+.cart .finalizar-compra {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  color: white;
+}
+
+.finalizar-compra hr {
+  border: 1px solid black;
+  width: 80%;
+  margin: 0.5rem;
+}
+
+.finalizar-compra button {
+  padding: 0.8rem;
+  margin-top: 0.2rem;
+  width: 50%;
+  color: white;
+  background-color: rgb(90, 221, 111);
+  border: none;
+  border-radius: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.finalizar-compra button:hover {
+  background-color: rgb(30, 200, 100);
 }
 
 
 .show-cart {
   display: block;
 }
-
-
-/*Login*/
-
-
-
-
 
 /*Register*/
 
@@ -483,6 +548,7 @@ footer .iconos button svg {
 /* ADMIN */
 
 .container-products-admin h3 {
+  margin-top: 22.5vh;
   font-size: 2.5rem;
   text-align: center;
 }
@@ -508,13 +574,203 @@ footer .iconos button svg {
   width: 100%;
 }
 
-.container-products-admin .botones {
-  display: flex;
-  justify-content: space-between;
+.container-products-admin li button {
+  padding: 0.5rem;
+  background-color: #E65F5C;
+  color: white;
 }
 
-.botones button {
+
+.container-add-product h3 {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.container-add-product form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  width: 100%;
+
+  margin-top: 1.5rem
+}
+
+.container-add-product form input {
   width: 50%;
-  height: 2rem;
-  margin: 0 0.2rem 0 0.2rem;
+  padding: 0.3rem;
+}
+
+.container-add-product form input[type="submit"] {
+  width: 35%;
+  padding: 0.5rem;
+  margin: 0.5rem 0 1.5rem 0;
+  background-color: rgb(150, 202, 255);
+
+  border: none;
+}
+
+.container-add-product form input[type="submit"]:hover {
+  background-color: rgb(90, 221, 111);
+}
+
+.nav-admin {
+  background-color: black;
+  color: white;
+  border-radius: 0 0 1.5rem 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.nav-admin ul {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 1rem;
+
+  list-style: none;
+
+  cursor: pointer;
+}
+
+.nav-admin a {
+  text-decoration: none;
+  color: white;
+}
+
+.container-consultas-admin button{
+  height: 2.5rem;
+  width: 2.5rem;
+}
+
+.container-consultas-admin ul{
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin: 1rem 0 2rem 2rem;
+}
+
+.container-consultas-admin ul li{
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.container-consultas-admin h3{
+  font-size: 2.2rem;
+  text-align: center;
+}
+
+
+/* Main */
+
+.sobre-nosotros h3 {
+  margin-top: 5rem;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.sobre-nosotros p {
+  margin: 0.5rem 1rem 1rem 1rem;
+  text-align: center;
+}
+
+.como-trabajamos h3 {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.como-trabajamos p {
+  margin: 0.5rem 1rem 2rem 1rem;
+  text-align: center;
+}
+
+.volver-al-inicio{
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  
+  background-color:white;
+  width: 100%;
+  height: 10vh;
+
+  padding-left: 1rem;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.volver-al-inicio svg{
+  padding-top: 0.5rem;
+}
+
+.volver-al-inicio p{
+  font-size: 1.3rem;
+  font-weight: 600;
+
+}
+
+
+
+.consulta {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  gap: 1rem;
+}
+
+.consulta p{
+  text-align: center;
+  width: 60%;
+}
+
+.consulta h3 {
+  font-size: 2rem;
+}
+
+.consulta form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.consulta form input {
+  width: 60%;
+  padding: 0.7rem;
+}
+
+.consulta form textarea {
+  width: 60%;
+  height: 100px;
+  padding: 0.5rem;
+}
+
+.consulta form input[type="submit"] {
+  width: 35%;
+  padding: 0.5rem;
+  border: none;
+
+  margin-top: 0.3rem;
+
+  background-color: rgb(150, 202, 255);
+}
+
+.consulta form input[type="submit"]:hover {
+  background-color: rgb(90, 221, 111);
+}
+
+.consulta svg{
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
 }

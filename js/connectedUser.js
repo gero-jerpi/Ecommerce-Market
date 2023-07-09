@@ -1,7 +1,6 @@
 import swal from 'sweetalert';
 
 export function connectedUser() {
-
   // Bienvenida
   const name = document.getElementById("user-name")
   const userName = JSON.parse(localStorage.getItem("user-name"))
@@ -23,14 +22,16 @@ export function connectedUser() {
           if (willDelete) {
             swal("¡Cuenta desconectada!", {
               icon: "success",
+              buttons: false,
+              timer: 1500
             });
             localStorage.clear()
+           
             name.innerHTML = `<a href="pages/login.html">Iniciar sesión</a>`
           }
         });
     })
   }
-
-
 }
 
+connectedUser()

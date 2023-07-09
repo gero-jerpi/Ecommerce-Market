@@ -1,12 +1,11 @@
-// Products
+import swal from 'sweetalert';
 
 const listProducts = document.getElementById("products-admin")
 
 async function getData() {
-    const api = await fetch('../products.json')
+    const api = await fetch('http://localhost:3000/products')
     const response = await api.json()
     renderProducts(response)
-    console.log(response);
 }
 
 getData()
@@ -29,10 +28,8 @@ function renderProducts(products) {
             <p class="name">${e.name}</p>
             <span>${e.brand}</span>
             </div>
-            <div class="botones">
-           <button>Eliminar</button>
-           <button>Editar</button>
-           </div>
+           <button onclick="eliminar('${e.id}')">Eliminar</button>
+
         `
  
         listProducts.appendChild(li)

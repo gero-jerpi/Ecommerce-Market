@@ -1,6 +1,5 @@
 import '../style.css'
-
-// Register
+import swal from 'sweetalert';
 
 const userRegister = document.getElementById("user-register")
 const passwordRegister = document.getElementById("password-register")
