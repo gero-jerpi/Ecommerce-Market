@@ -2,7 +2,7 @@
 ¡Website para un mercado! 🍖🍖
 
 ## Descripción
-Este proyecto es un e-commerce market, una plataforma en línea que permite a los usuarios comprar productos de manera segura y conveniente. La aplicación se basa en tecnologías web modernas, como JavaScript, HTML y CSS, para crear una experiencia de compra intuitiva y atractiva.
+Este proyecto es un e-commerce, una plataforma en línea que permite a los usuarios comprar productos de manera segura y conveniente. La aplicación se basa en tecnologías web modernas, como JavaScript, HTML y CSS, para crear una experiencia de compra intuitiva y atractiva.
 
 Los usuarios podrán explorar una amplia variedad de productos, agregarlos a su carrito de compras y realizar pagos. Además, en caso de tener algun problema tendrán un sistema de consultas.
 
