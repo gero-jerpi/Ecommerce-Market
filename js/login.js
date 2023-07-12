@@ -39,7 +39,7 @@ async function getUsers() {
             if (response.ok) {
                 swal(`¡Bienvenido ${user.user}! 😎`, {
                     buttons: false,
-                    timer: 1000
+                    timer: 1500
                 });
                 setTimeout(() => {
                     document.location.href = "../index.html"
