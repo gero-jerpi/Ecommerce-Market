@@ -29,7 +29,7 @@ async function eliminar(id) {
                             timer: 1500,
                         })
                         setTimeout(() => {
-                            document.location.href = "http://127.0.0.1:5173/pages/admin.html"
+                            document.location.href = "/pages/admin.html"
                         }, 1500)
 
                     }

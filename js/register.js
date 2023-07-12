@@ -25,10 +25,21 @@ async function getApi() {
             })
 
             if (!response.ok) {
-                alert("Nombre de usuario existente...🙁")
+                swal("Nombre de usuario existente...🙁", {
+                    buttons: false,
+                    timer: 1000
+                });
                 userRegister.value = ""
             } else {
-                alert("¡Cuenta creada!")
+                swal("¡Cuenta creada! 😎", {
+                    buttons: false,
+                    timer: 1000
+                });
+                setTimeout(() => {
+                    document.location.href = "../login.html"
+                }, 1000);
+
+                alert()
                 document.location.href = "login.html"
             }
 
